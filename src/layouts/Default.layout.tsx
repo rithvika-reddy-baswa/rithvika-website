@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
 
+import { Navbar } from '~/components';
 import { usePersistantState, useSeoProps } from '~/lib';
 
 import type { WithChildren, WithProps } from '~/types';
