@@ -17,7 +17,7 @@ const ContentSecurityPolicy = `
  * @type {import('next').NextConfig}
  */
 const config = {
-	images: {
+	/** images: {
 		domains: [
 			// Discord assets
 			'cdn.discordapp.com',
@@ -35,7 +35,7 @@ const config = {
 			'source.unsplash.com',
 			'images.unsplash.com',
 		],
-	},
+	**/},
 	// Inspired by: https://github.com/leerob/leerob.io/blob/main/next.config.js#L44-L81
 	async headers() {
 		return [
