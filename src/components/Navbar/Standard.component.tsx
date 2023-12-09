@@ -1,6 +1,6 @@
 import { Disclosure } from '@headlessui/react';
 
-import { Button, Navbar } from '~/components';
+import { Button} from '~/components';
 import { useNavigation } from '~/lib';
 
 export function Standard(): JSX.Element {

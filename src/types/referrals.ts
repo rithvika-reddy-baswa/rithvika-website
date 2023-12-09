@@ -1,4 +1,4 @@
-export interface Referral {
+/**export interface Referral {
 	aliases?: Array<string>;
 	bonus?: string;
 	code?: string;
@@ -8,6 +8,6 @@ export interface Referral {
 	icon: string;
 	name: string;
 	url: string;
-}
+} **/
 
-export type Referrals = Array<Referral>;
+//export type Referrals = Array<Referral>;

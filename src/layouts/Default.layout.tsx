@@ -1,7 +1,6 @@
 import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
 
-import { Navbar } from '~/components';
 import { usePersistantState, useSeoProps } from '~/lib';
 
 import type { WithChildren, WithProps } from '~/types';
@@ -28,7 +27,6 @@ export function DefaultLayout({
 	return (
 		<>
 			<NextSeo {...seo} />
-			<Navbar.Standard />
 			<main className="flex flex-col justify-center px-8">
 				{showBackground && <Background />}
 				{children}
